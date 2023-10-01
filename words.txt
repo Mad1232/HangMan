@@ -1,0 +1,73 @@
+Food:
+Pizza
+Burger
+Sushi
+Tacos
+Spaghetti
+Pancakes
+Waffles
+Nachos
+Burrito
+Ramen
+Dim Sum
+Falafel
+Gnocchi
+Chowder
+Quiche
+Risotto
+Poutine
+Bruschetta
+Gyros
+Tiramisu
+Movie:
+Titanic
+Avatar
+Inception
+Gladiator
+Interstellar
+Jurassic
+Matrix
+Terminator
+Pulp Fiction
+Casablanca
+Jaws
+The Godfather
+Forrest Gump
+Braveheart
+Schindler's List
+The Shawshank Redemption
+The Avengers
+Star Wars
+The Matrix 
+Fruit:
+Apple
+Banana
+Orange
+Grape
+Mango
+Strawberry
+Watermelon
+Pineapple
+Kiwi
+Peach
+Pear
+Cherry
+Blueberry
+Raspberry
+Lemon
+Lime
+Papaya
+Coconut
+Avocado
+Grapefruit 
+Song:
+What Makes You Beautiful
+Story of My Life
+Drag Me Down
+Live While We're Young
+Best Song Ever
+Steal My Girl
+Night Changes
+Little Things
+Perfect
+Kiss You
