@@ -14,6 +14,10 @@ public class hangman {
         word hangmanWord = new word();
         hangmanWord.readFile();
         
+        System.out.print("Enter your name: ");
+        String playerName = scnr.nextLine();
+        player player = new player(playerName);
+        
         StringBuilder currentWord = new StringBuilder();
 
         int category;
@@ -47,7 +51,7 @@ public class hangman {
         }
 
         System.out.println("Word to guess: " + currentWord.toString() );
-        System.out.println(guessWord);
+
 
         int attempts = 6; // Number of attempts allowed
         boolean gameWon = false;
@@ -78,11 +82,13 @@ public class hangman {
         }
 
         if (gameWon) {
+            player.updateScore(6 - attempts); // Update the score based on the number of attempts
             System.out.println("Congratulations! You've won. The word was: " + guessWord);
+            System.out.println("Player: " + player.getName() + ", Score: " + player.getScore());
         } else {
             System.out.println("Game over! You've run out of attempts. The word was: " + guessWord);
+            System.out.println("Player: " + player.getName() + ", Score: " + player.getScore());
         }
-
 
         
     }
